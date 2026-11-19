@@ -1,0 +1,16 @@
+1. Build the App - app.py
+2. Add code to the app.py file
+3. Create a Static folder -> inside that folder, create a "style.css" file -> add the styling code
+4. Create a Templates folder -> inside that folder, create an "index.html" file -> add the html code
+5. Now, locally test the application
+---
+6. Open Docker Desktop and DockerHub - Make sure you are signed-in 
+7. Create the dockerfile -> add code to it to build the image
+8. Create the docker image and test it:
+        >> docker build -t kubernetes-test-app:latest .
+        >> docker images (to see the image if created/existed)
+        >> docker run -p 5000:5000 kubernetes-test-app:latest
+---
+9. Create a "deployment.yaml" file -> add configuration code in it
+10. Install minikube form the official website through CLI
+11. CMD: minikube start 
